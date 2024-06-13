@@ -1,0 +1,247 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+} 
+#header-nav{
+    height: inherit;
+    background-color: black;
+    
+}    
+
+.logo {
+    width: 100px; 
+    height: auto; 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+
+}
+
+.right-text {
+    position: absolute; 
+    top: 50%; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    font-size: 18px; 
+}
+
+
+.landing-page {
+    height: 100%;
+    min-height: 60vh;
+    background-image: url(image/1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111111;
+    
+
+}
+
+
+.top{
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.187);
+    background-size: cover;
+    background-position:center;
+}
+
+.top .ovelay{
+    position: inherit;
+    width: 100%;
+    top: 100%;
+    left: 20px;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.295);   
+    
+}
+
+
+.text{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    position:right;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom: 5%;
+
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Adjust the distance from the left edge */
+    transform: translateY(-50%);
+    display:flex;
+  flex-direction:column;
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.89);  
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+bottom {
+    margin-top: auto;
+    font-size: 14px;
+}
+
+/*home page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+.Home{
+    height: 100%;
+    min-height: 60vh;
+    background-image: url(image/2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111111;
+}
+
+
+
+header h1 {
+    font-size: 36px;
+}
+
+
+
+bottom {
+    margin-top: auto;
+    font-size: 14px;
+}
+/*about us*/
+
+.AboutUs{
+    height: 100%;
+    min-height: 60vh;
+    background-image: url(image/AboutUs.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111111;
+}
+
+/*contact us*/
+.ContactUs{
+    height: 100%;
+    min-height: 60vh;
+    background-image: url(image/landing.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #111111fc;
+    margin-top: 0%;
+    justify-content: space-between;
+    
+
+}
+/*services*/
+.Services{
+    height: 100%;
+    min-height: 60vh;
+    background-image: url(image/Services.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    justify-content: space-between;
+
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    height: 10px;;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.89);  
+    text-decoration: none;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    border-top: 0;
+}
